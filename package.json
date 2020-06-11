@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-baitshop-hooks",
   "description": "ESLint rules for React Hooks with support for Baitshop hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",

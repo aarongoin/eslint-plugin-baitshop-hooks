@@ -1,4 +1,9 @@
-# `eslint-plugin-react-hooks`
+# eslint-plugin-baitshop-hooks
+
+[![npm](https://img.shields.io/npm/v/eslint-plugin-baitshop-hooks)](https://npmjs.com/package/eslint-plugin-baitshop-hooks)
+[![license](https://img.shields.io/github/license/aarongoin/eslint-plugin-baitshop-hooks)](https://github.com/aarongoin/eslint-plugin-baitshop-hooks/blob/master/LICENSE)
+[![issues](https://img.shields.io/github/issues/aarongoin/baitshop)](https://github.com/aarongoin/eslint-plugin-baitshop-hooks/issues)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 This is an ESLint plugin which extends and replaces React's "react-hooks/rules-of-hooks" eslint rule to support the use of hooks inside the [baitshop](https://github.com/aarongoin/baitshop) Hook's onRender() method. It does not include the "react-hooks/exhaustive-deps" rule so you'll need to configure that rule separately if you want the full [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html) eslint experience.
 
