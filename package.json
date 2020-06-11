@@ -1,0 +1,48 @@
+{
+  "name": "eslint-plugin-baitshop-hooks",
+  "description": "ESLint rules for React Hooks with support for Baitshop hooks",
+  "version": "4.0.4",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarongoin/eslint-plugin-baitshop-hooks.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "build-info.json",
+    "index.js",
+    "cjs"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "react",
+    "baitshop"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/aarongoin/eslint-plugin-baitshop-hooks/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.7.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.js"
+    ]
+  }
+}
